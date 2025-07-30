@@ -5,9 +5,8 @@ using UnityEngine.UI;
 using Firebase.Extensions;
 using Firebase.Auth;
 using Firebase;
-using Unity.VisualScripting;
 
-public class EmailAuth : MonoBehaviour
+public class SimpleEmailAuth : MonoBehaviour
 {
     [Header("Panels")]
     [SerializeField] private GameObject emailLoginPanel;
